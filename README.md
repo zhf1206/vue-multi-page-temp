@@ -11,7 +11,7 @@ npm install  或  cnpm install
 config\index.js
 
 <pre>开发调试</pre>
-npm run dev
+npm run dev</br>
 访问：http://localhost:9090/
 
 <pre>测试调试</pre>
@@ -24,7 +24,7 @@ npm run prod
 npm run build
 
 <pre>本地测试模拟服务</pre>
-模拟数据：server\db.json
-模拟服务：server\server.js
-npm run server
+模拟数据：server\db.json</br>
+模拟服务：server\server.js</br>
+npm run server</br>
 访问：http://localhost:3000/
