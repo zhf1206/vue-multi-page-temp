@@ -2,7 +2,7 @@
     <div class="content">
         <popover>
             <div slot="content" class="popover-demo-content">
-                包含：快速值机、快速安检、快速通道三项服务
+                三项服务
               </div>
              <div class="button"></div>
         </popover>
