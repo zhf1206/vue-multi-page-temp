@@ -79,13 +79,13 @@ import {Hi} from "assets/js/ddbase";
         //不同类型切换Class
         switch(this.winType){
           case "0":
-            return "hiapp-pop-msg";
+            return "app-pop-msg";
             break;
           case "1":
-            return "hiapp-pop-msg1";
+            return "app-pop-msg1";
             break;
           default:
-            return "hiapp-pop-msg";
+            return "app-pop-msg";
         }
       }
     },
@@ -132,7 +132,7 @@ import {Hi} from "assets/js/ddbase";
 <style lang="less" rel="stylesheet/less">
 .fl{float: left;}
 .fr{float: right;}
-.hiapp-pop-msg{
+.app-pop-msg{
   position: fixed;
   top:0;
   left:0;

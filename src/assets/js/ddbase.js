@@ -115,15 +115,15 @@ export function showMessage(text) {
 export const versions={         //移动终端浏览器版本信息
   ios: !!navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
   android: navigator.userAgent.indexOf('Android') > -1 || navigator.userAgent.indexOf('Linux') > -1, //android终端或uc浏览器
-  uyu_android:navigator.userAgent.indexOf('com.hna.yoyu') > -1,
-  uyu_ios:navigator.userAgent.indexOf('iOSUYUTrip')> -1,
+  h5_android:navigator.userAgent.indexOf('h5.android') > -1,
+  h5_ios:navigator.userAgent.indexOf('h5.ios')> -1,
   wx: !! navigator.userAgent.match(/MicroMessenger/), //weixin
   safari: navigator.userAgent.indexOf("Safari") > -1,
   weibo: navigator.userAgent.match(/WeiBo/i)
 };
 export const Hi = {
-    body: document.getElementById('hiapp_hi'),
-    html: document.getElementById('hiapp_hi_html'),
+    body: document.getElementById('zkapp_body'),
+    html: document.getElementById('zkapp_html'),
     scrollTop:0,
     setOverflowHidden: function () {
         this.scrollTop = this.body.scrollTop;

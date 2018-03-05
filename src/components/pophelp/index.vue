@@ -1,5 +1,5 @@
 <template>
-  <div class="hiapp-help" @click="closeWin" v-show="showWin">
+  <div class="app-help" @click="closeWin" v-show="showWin">
     <div class="container_Help">
       <div class="title" v-text="title"></div>
       <div v-if="!showSlot" class="content" v-text="content">
@@ -46,7 +46,7 @@ export default {
 }
 </script>
 <style lang="less">
-.hiapp-help{
+.app-help{
   position: fixed;
   top:0;
   bottom: 0;

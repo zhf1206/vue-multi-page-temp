@@ -4,14 +4,14 @@ require('es6-promise').polyfill();
 const getBaseParams = function () {
   //deviceType:1:android、2:iphone、3.ipad ,4:PC、5:H5
   var deviceType = 5,
-    platformSource = 'hiapp_h5';
+    platformSource = 'h5';
   if (navigator.userAgent.indexOf('iOSUYUTrip') > -1) {
     deviceType = 2;
-    platformSource = 'hiapp_iphone';
+    platformSource = 'iphone';
   }
   if (navigator.userAgent.indexOf('com.hna.hi')) {
     deviceType = 1;
-    platformSource = 'hiapp_android';
+    platformSource = 'android';
   };
   let token = localStorage.getItem('userInfo') && localStorage.getItem('userInfo') != 'undefined' && JSON.parse(localStorage.getItem('userInfo')).token;
   var str = '&deviceTypeOrig=5&device_type=' + deviceType + '&token=' + token + '&platformSource=' + platformSource;
